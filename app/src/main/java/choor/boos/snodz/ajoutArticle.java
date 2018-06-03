@@ -48,7 +48,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ajoutArticle extends AppCompatActivity {
-    String id;//yooda
+    String id;//yooda2
     int key;
     long idArticle;
     EditText nom, prixAchat,prixVente,taxe,quantite,type;
