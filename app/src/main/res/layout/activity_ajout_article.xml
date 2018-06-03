@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="choor.boos.snodz.ajoutArticle">
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/prixachat"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="@string/nom"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <EditText
+        android:id="@+id/prixachat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/prixvente"
+        android:layout_below="@+id/nom"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/prixdachat"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/prixvente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prixachat"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/prixdachat"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/prixvente"
+        android:layout_below="@+id/prixvente"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="@string/type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/taxe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/type"
+        android:layout_below="@+id/type"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/taxe"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ajouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/taxe"
+        android:layout_marginBottom="28dp"
+        android:layout_marginStart="61dp"
+        android:text="@string/ajouter" />
+
+    <EditText
+        android:id="@+id/quan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ajouter"
+        android:layout_alignStart="@+id/taxe"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="@string/quantite"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@+id/nom"
+
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <Button
+        android:id="@+id/parcourImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="127dp"
+        android:text="Button" />
+</RelativeLayout>

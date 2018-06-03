@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="choor.boos.snodz.acceuil">
+
+    <Button
+        android:id="@+id/ajoutarticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ajout article"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/ajoutClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Ajout client"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/modifierClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ajoutClient"
+        android:layout_alignParentEnd="true"
+        android:text="modifierClient" />
+
+    <Button
+        android:id="@+id/ajoutEmploye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ajoutarticle"
+        android:layout_below="@+id/ajoutarticle"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="11dp"
+        android:text="ajout employe" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Snodz</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">prenom</string>
+    <string name="prixdachat">prix d\'achat</string>
+    <string name="prixvente">prix de vente</string>
+    <string name="type">Type</string>
+    <string name="taxe">Taxe</string>
+    <string name="quantite">quantité</string>
+    <string name="ajouter">ajouter</string>
+
+</resources>

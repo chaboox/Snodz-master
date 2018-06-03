@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "263908999572",
+    "firebase_url": "https://snowdz-99893.firebaseio.com",
+    "project_id": "snowdz-99893",
+    "storage_bucket": "snowdz-99893.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263908999572:android:ead13b9e2fa49d99",
+        "android_client_info": {
+          "package_name": "choor.boos.snodz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263908999572-8he541o1ehdempqiti4qqcmueg2it2d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "choor.boos.snodz",
+            "certificate_hash": "e46ff3be6ee2b1fc66201fb2b50b1badf5444876"
+          }
+        },
+        {
+          "client_id": "263908999572-i7i292c7aoa8es8eifm6cvvhs9hqtmph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "choor.boos.snodz",
+            "certificate_hash": "f636c8b756276ec4dddfc7eefbd6cc8910b68bef"
+          }
+        },
+        {
+          "client_id": "263908999572-7un5roj3hcm863c0fr0eqkhf2j06qm93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMXiP8EXqAvd3Q9neHEpjzpxokKcccQ_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263908999572-7un5roj3hcm863c0fr0eqkhf2j06qm93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263908999572:android:9c980ecc50264645",
+        "android_client_info": {
+          "package_name": "choor.boos.snodzadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263908999572-i3jih20un6saf4tq6fdvvj1se16mofi5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "choor.boos.snodzadmin",
+            "certificate_hash": "f636c8b756276ec4dddfc7eefbd6cc8910b68bef"
+          }
+        },
+        {
+          "client_id": "263908999572-7un5roj3hcm863c0fr0eqkhf2j06qm93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMXiP8EXqAvd3Q9neHEpjzpxokKcccQ_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263908999572-7un5roj3hcm863c0fr0eqkhf2j06qm93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
