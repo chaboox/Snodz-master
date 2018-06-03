@@ -597,3 +597,4 @@ imgUri = Uri.fromFile(destination);
 
 
 }
+//version 2
