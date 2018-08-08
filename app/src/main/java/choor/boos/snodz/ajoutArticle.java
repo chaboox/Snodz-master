@@ -132,9 +132,6 @@ public class ajoutArticle extends AppCompatActivity {
 
                        ////////ajout photo firebase
 
-
-
-
                         if (imgUri != null) {
                             final ProgressDialog dialog = new ProgressDialog(ajoutArticle.this);
                             dialog.setTitle("Uploading image");
@@ -144,13 +141,11 @@ public class ajoutArticle extends AppCompatActivity {
                             StorageReference ref = mStorageRef.child(FB_STORAGE_PATH + System.currentTimeMillis() + "." + getImageExt(imgUri));
 
                             //Add file to reference
-
+                            //TODO change the code below cuz it doesn't work for all device
                             ref.putFile(imgUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                                 @Override
                                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
 
-
-                                    //Dimiss dialog when success
                                     dialog.dismiss();
                                     //Display success toast msg
                                     Toast.makeText(getApplicationContext(), "Image uploaded", Toast.LENGTH_SHORT).show();
