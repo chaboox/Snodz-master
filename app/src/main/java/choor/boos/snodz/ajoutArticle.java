@@ -65,7 +65,7 @@ public class ajoutArticle extends AppCompatActivity {
     private ImageView imageView;
     private EditText txtImageName;
     private Uri imgUri;
-
+    //TODO we are not handling png if we choose a png with some transparence it will change it to black (JPG)
 
     public static final String FB_STORAGE_PATH = "image/";
     public static final String FB_DATABASE_PATH = "image";
